@@ -4,7 +4,7 @@
 **Official PyTorch Implementation & Interactive Simulator**
 
 [![Paper](https://img.shields.io/badge/SCIE-Int._J._Adv._Manuf._Technol.-023047?style=for-the-badge&logo=springer)](https://link.springer.com/article/10.1007/s00170-025-16934-5)
-[![Demo](https://img.shields.io/badge/Live_Demo-Interactive_Simulator-219EBC?style=for-the-badge&logo=html5)](https://htmlpreview.github.io/?https://github.com/Yani-Studio/Wafer-Defect-Classification-SCRBLAA-Net/blob/main/Visualization/Wafer_Map_Simulator.html)
+[![Demo](https://img.shields.io/badge/Live_Demo-Interactive_Simulator-219EBC?style=for-the-badge&logo=html5)](https://raw.githack.com/Yani-Studio/Wafer-Defect-Classification-SCRBLAA-Net/main/Visualization/Wafer_Map_Simulator.html)
 [![PyTorch](https://img.shields.io/badge/PyTorch-%23EE4C2C.svg?style=for-the-badge&logo=PyTorch&logoColor=white)]()
 
 *웨이퍼 불량 패턴 분류를 위한 시공간(Spatio-Temporal) 하이브리드 아키텍처 재현 및 검증 파이프라인*
@@ -25,8 +25,8 @@
 ## 🚀 1. Interactive Wafer Map Simulator
 논문에서 제안된 모델의 작동 원리와 8가지 웨이퍼 결함 패턴의 활성화(Activation) 과정을 직접 조작하며 확인할 수 있는 **인터랙티브 시뮬레이터**를 제공합니다.
 
-* 👉 **[웹에서 즉시 실행하기 (Live Demo)](https://htmlpreview.github.io/?https://github.com/Yani-Studio/Wafer-Defect-Classification-SCRBLAA-Net/blob/main/Visualization/Wafer_Map_Simulator.html)** : 별도 다운로드 없이 브라우저에서 1초 만에 실행됩니다. (가장 추천)
-* 💾 **[로컬 다운로드 (Download HTML)](https://github.com/Yani-Studio/Wafer-Defect-Classification-SCRBLAA-Net/blob/main/Visualization/Wafer_Map_Simulator.html)** : 링크 접속 후, 우측 상단의 **`Download raw file` (↓ 화살표 아이콘)**을 클릭하시면 파일로 저장하실 수 있습니다.
+👉 **[웹에서 즉시 실행하기 (Live Demo)](https://raw.githack.com/Yani-Studio/Wafer-Defect-Classification-SCRBLAA-Net/main/Visualization/Wafer_Map_Simulator.html)**
+*(링크 클릭 시 브라우저에서 즉시 인터랙티브 데모가 실행됩니다.)*
 
 <br>
 
@@ -51,9 +51,15 @@
 
 CNN의 전역적 공간 특징 추출 능력과 RNN의 시퀀스 문맥 이해 능력을 결합한 하이브리드 모델입니다.
 
-<p align="center">
-  <img src="https://raw.githubusercontent.com/Yani-Studio/Wafer-Defect-Classification-SCRBLAA-Net/main/Visualization/SCRBLAA_Net_framework_overview.png" alt="Architecture" width="80%">
-</p>
+<br>
+
+<div align="center">
+
+![Architecture](Visualization/SCRBLAA_Net_framework_overview.png)
+
+</div>
+
+<br>
 
 1. **Shortcut3-ResNet (SCR5):** Binarized Wafer Map에서 공간 특징(Spatial Feature) 추출
 2. **Sliding-Window Tokenization:** 고차원 특징 벡터를 중첩된 형태의 순차적 토큰으로 변환
@@ -65,9 +71,15 @@ CNN의 전역적 공간 특징 추출 능력과 RNN의 시퀀스 문맥 이해 �
 
 미세한 결함 패턴을 극대화하고 공정 노이즈를 억제하기 위해 **고속 이진화(Binarization) 파이프라인**을 적용했습니다.
 
-<p align="center">
-  <img src="https://raw.githubusercontent.com/Yani-Studio/Wafer-Defect-Classification-SCRBLAA-Net/main/Visualization/preprocessed_binarized.png" alt="Preprocessed Data" width="80%">
-</p>
+<br>
+
+<div align="center">
+
+![Preprocessed Data](Visualization/preprocessed_binarized.png)
+
+</div>
+
+<br>
 
 *(위 이미지는 전처리가 완료된 8가지 고장 유형의 흑백 이진화 웨이퍼 맵 샘플입니다.)*
 

@@ -30,7 +30,7 @@ A hybrid model that combines the global spatial feature extraction capabilities 
 
 <div align="center">
 
-![Architecture](https://raw.githubusercontent.com/Yani-Studio/Wafer-Defect-Classification-SCRBLAA-Net/main/Visualization/framework_overview.png)
+<img src="https://raw.githubusercontent.com/Yani-Studio/Wafer-Defect-Classification-SCRBLAA-Net/main/Visualization/framework_overview.png" alt="Architecture" width="80%">
 
 </div>
 
@@ -55,7 +55,7 @@ We provide a **web-based interactive simulator** that allows users to manually o
 This repository accurately reproduces the proposed architecture using PyTorch and conducts a variance analysis across different infrastructure environments.
 
 * **Original Paper Performance:** `Test Accuracy 94.98%` (NVIDIA RTX 3090 Ti 24GB / CUDA Environment)
-* **Local Reproduction Performance:** `Test Accuracy 94.10%` / (MacBook M5 base chip 24GB / MPS Environment)
+* **Local Reproduction Performance:** `Test Accuracy 94.10%` / `Macro F1-Score 0.9173` (MacBook Apple Silicon / MPS Environment)
 
 **💡 Analysis of Reproduction Variance:**
 The 94.98% accuracy reported in the paper is a maximized metric derived under a strictly controlled random seed on a high-end desktop environment (NVIDIA RTX 3090 Ti) using a CUDA backend. The minor numerical variance of approximately 0.88%p observed in this local reproduction (MacBook Apple Silicon) is attributed to the following factors:
@@ -75,7 +75,7 @@ A **high-speed binarization pipeline** was applied to maximize subtle defect pat
 
 <div align="center">
 
-![Preprocessed Data](https://raw.githubusercontent.com/Yani-Studio/Wafer-Defect-Classification-SCRBLAA-Net/main/Visualization/preprocessed_binarized.png)
+<img src="https://raw.githubusercontent.com/Yani-Studio/Wafer-Defect-Classification-SCRBLAA-Net/main/Visualization/preprocessed_binarized.png" alt="Preprocessed Data" width="40%">
 
 </div>
 

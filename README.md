@@ -3,6 +3,7 @@
 # 🔬 SCRBLAA-Net: Wafer Defect Classification
 **Official PyTorch Implementation & Interactive Simulator**
 
+[![Kyung Hee Univ](https://img.shields.io/badge/Kyung_Hee_University-Master's_Thesis-8B0000?style=for-the-badge&logo=academia&logoColor=white)]()
 [![Paper](https://img.shields.io/badge/SCIE-Int._J._Adv._Manuf._Technol.-023047?style=for-the-badge&logo=springer)](https://link.springer.com/article/10.1007/s00170-025-16934-5)
 [![Demo](https://img.shields.io/badge/Live_Demo-Interactive_Simulator-219EBC?style=for-the-badge&logo=html5)](https://raw.githack.com/Yani-Studio/Wafer-Defect-Classification-SCRBLAA-Net/main/Visualization/Wafer_Map_Simulator.html)
 [![PyTorch](https://img.shields.io/badge/PyTorch-%23EE4C2C.svg?style=for-the-badge&logo=PyTorch&logoColor=white)]()
@@ -13,8 +14,8 @@
 
 <br>
 
-## 📢 Publication
-This repository provides the official implementation of the core architecture from our research published in the SCIE journal **[The International Journal of Advanced Manufacturing Technology (JCR Q2)]**. It also serves as a validation project demonstrating model reproducibility across distinct hardware infrastructures.
+## 📢 Publication & Master's Thesis
+This repository provides the official implementation of the core architecture developed for my **Master's Thesis at Kyung Hee University Graduate School**, which was subsequently published in the SCIE journal **[The International Journal of Advanced Manufacturing Technology (JCR Q2)]**. It also serves as a validation project demonstrating model reproducibility across distinct hardware infrastructures.
 
 > **Combining Residual Network and Bidirectional Long Short-Term Memory with Additive Attention for Wafer Defect Classification**<br>
 > *Gyumin Kang, et al.*<br>
@@ -42,11 +43,13 @@ A hybrid model that combines the global spatial feature extraction capabilities 
 
 <br>
 
-## 🚀 2. Interactive Wafer Map Simulator
-We provide a **web-based interactive simulator** that allows users to manually operate and visualize the activation processes of the proposed model across 8 distinct wafer defect patterns.
+## 🚀 2. Interactive Wafer Map Simulator (🌟 Highly Recommended)
 
-👉 **[Launch Interactive Wafer Map Simulator (Live Demo)](https://raw.githack.com/Yani-Studio/Wafer-Defect-Classification-SCRBLAA-Net/main/Visualization/Wafer_Map_Simulator.html)**
-*(Click the link to run the interactive demo immediately in your browser. No installation required.)*
+> **🎯 MUST-TRY: Experience the AI Model in Action!**<br>
+> We strongly encourage reviewers to try our **web-based interactive simulator**. Rather than just reading the code, you can manually generate 8 distinct wafer defect patterns and visually verify how the SCRBLAA-Net architecture detects and activates upon them in real-time.
+
+### 💻 👉 **[Launch Interactive Wafer Map Simulator (Live Demo)](https://raw.githack.com/Yani-Studio/Wafer-Defect-Classification-SCRBLAA-Net/main/Visualization/Wafer_Map_Simulator.html)** 👈
+*(⚡️ Click the link above to test it immediately in your browser! Zero installation required & runs in 1 second.)*
 
 <br>
 

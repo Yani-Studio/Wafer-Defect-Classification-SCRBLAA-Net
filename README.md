@@ -51,15 +51,9 @@
 
 CNN의 전역적 공간 특징 추출 능력과 RNN의 시퀀스 문맥 이해 능력을 결합한 하이브리드 모델입니다.
 
-<br>
-
-<div align="center">
-
-![Architecture](Visualization/SCRBLAA_Net_framework_overview.png)
-
-</div>
-
-<br>
+<p align="center">
+  <img src="https://raw.githubusercontent.com/Yani-Studio/Wafer-Defect-Classification-SCRBLAA-Net/main/Visualization/SCRBLAA_Net_framework_overview.png" alt="Architecture" width="80%">
+</p>
 
 1. **Shortcut3-ResNet (SCR5):** Binarized Wafer Map에서 공간 특징(Spatial Feature) 추출
 2. **Sliding-Window Tokenization:** 고차원 특징 벡터를 중첩된 형태의 순차적 토큰으로 변환
@@ -71,15 +65,9 @@ CNN의 전역적 공간 특징 추출 능력과 RNN의 시퀀스 문맥 이해 �
 
 미세한 결함 패턴을 극대화하고 공정 노이즈를 억제하기 위해 **고속 이진화(Binarization) 파이프라인**을 적용했습니다.
 
-<br>
-
-<div align="center">
-
-![Preprocessed Data](Visualization/preprocessed_binarized.png)
-
-</div>
-
-<br>
+<p align="center">
+  <img src="https://raw.githubusercontent.com/Yani-Studio/Wafer-Defect-Classification-SCRBLAA-Net/main/Visualization/preprocessed_binarized.png" alt="Preprocessed Data" width="80%">
+</p>
 
 *(위 이미지는 전처리가 완료된 8가지 고장 유형의 흑백 이진화 웨이퍼 맵 샘플입니다.)*
 

@@ -1,6 +1,6 @@
 <div align="center">
 
-# 🔬 SCRBLAA-Net: Wafer Defect Classification
+# 🔬 Combining residual network and bidirectional long short-term memory with additive attention for wafer defect classification
 **Official PyTorch Implementation & Interactive Simulator**
 
 [![Paper](https://img.shields.io/badge/SCIE-Int._J._Adv._Manuf._Technol.-023047?style=for-the-badge&logo=springer)](https://link.springer.com/article/10.1007/s00170-025-16934-5)

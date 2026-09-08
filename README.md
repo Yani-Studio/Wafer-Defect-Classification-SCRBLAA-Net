@@ -5,6 +5,7 @@
 
 [![Kyung Hee Univ](https://img.shields.io/badge/Kyung_Hee_University-Master's_Thesis-8B0000?style=for-the-badge&logo=academia&logoColor=white)]()
 [![Paper](https://img.shields.io/badge/SCIE-Int._J._Adv._Manuf._Technol.-023047?style=for-the-badge&logo=springer)](https://link.springer.com/article/10.1007/s00170-025-16934-5)
+[![DOI](https://img.shields.io/badge/DOI-10.1007%2Fs00170--025--16934--5-blue?style=for-the-badge&logo=doi&logoColor=white)](https://doi.org/10.1007/s00170-025-16934-5)
 [![Demo](https://img.shields.io/badge/Live_Demo-Interactive_Simulator-219EBC?style=for-the-badge&logo=html5)](https://raw.githack.com/Yani-Studio/Wafer-Defect-Classification-SCRBLAA-Net/main/Visualization/Wafer_Map_Simulator.html)
 [![PyTorch](https://img.shields.io/badge/PyTorch-%23EE4C2C.svg?style=for-the-badge&logo=PyTorch&logoColor=white)]()
 
